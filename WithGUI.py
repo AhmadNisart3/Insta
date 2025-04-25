@@ -5,7 +5,7 @@ from datetime import datetime
 from azure.storage.blob import BlobServiceClient, ContentSettings
 from sqlalchemy.exc import IntegrityError
 from sqlalchemy.orm import joinedload
-
+print("hello")
 # App Configuration
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'f1340841002453968837b6053f9dc3fdc7fd3b7d86b87dca'
